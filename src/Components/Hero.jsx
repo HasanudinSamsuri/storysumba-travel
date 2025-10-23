@@ -76,7 +76,7 @@ const Hero = () => {
           </div>
         </div>
       </Slider>
-      <div className='bg-white border border-gray-300 shadow-lg rounded-md z-10 left-[20%] absolute hidden lg:block bottom-[-10%] items-center justify-center w-100% mx-auto p-4'>
+      <div className='bg-white border border-gray-300 shadow-lg rounded-md z-10 left-[20%] absolute hidden lg:block bottom-[5%] items-center justify-center w-100% mx-auto p-4'>
         <div className='flex gap-3 items-center'>
           <div className='grid gap-5 grid-cols-4 flex-grow'>
             <div className='flex flex-col gap-2'>
@@ -115,31 +115,12 @@ const Hero = () => {
                 <option value=""><button>11</button></option>
                 <option value=""><button>12</button></option>
               </select>
-              <select name="" id="" className='border border-gray-300 rounded-sm p-1'>
-                <option value=""><button>Dewasa</button></option>
-                <option value=""><button>Anak-Anak</button></option>
-              </select>
-              <select name="" id="" className='border border-gray-300 rounded-sm p-1'>
-                <option value=""><button>1</button></option>
-                <option value=""><button>2</button></option>
-                <option value=""><button>3</button></option>
-                <option value=""><button>4</button></option>
-                <option value=""><button>5</button></option>
-                <option value=""><button>6</button></option>
-                <option value=""><button>7</button></option>
-                <option value=""><button>8</button></option>
-                <option value=""><button>9</button></option>
-                <option value=""><button>10</button></option>
-                <option value=""><button>11</button></option>
-                <option value=""><button>12</button></option>
-              </select>
             </div>
           </div>
           <div className='flex flex-col'>
             <label htmlFor="" className='text-white'>Transmission</label>
             <button className='bg-red-500 transition-all ease-in text-white hover:bg-black hover:text-white px-3 h-8 py-1 rounded-md'>Book Now</button>
           </div>
-
         </div>
       </div>
     </div>
